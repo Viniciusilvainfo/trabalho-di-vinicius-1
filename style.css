@@ -5,10 +5,27 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
+    padding-top: 50px;
 }
 
 #painel-grafico {
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    border: 20px solid black;
     height: 500px;
     width: 500px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+img {
+    width: 300px;
+    height: 100px;
+}
+
+form {
+   border: 1px solid black;
+   padding: 20px;
+   border: 20px solid black;
 }
