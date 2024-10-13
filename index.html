@@ -10,26 +10,26 @@
 <body>
 
     <div id="painel-grafico">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatem impedit corrupti atque quo. Sit maxime officiis excepturi totam iure vel alias laudantium quasi odit iusto cumque quia, earum optio.</p>
         <img src="images.png" alt="Imagem">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatem impedit corrupti atque quo. Sit maxime officiis excepturi totam iure vel alias laudantium quasi odit iusto cumque quia, earum optio.</p>
     </div>
 
     <h2>Painel de controle</h2>
     <form>
         <p>Cor de fundo:</p>
-        <input type="color" onchange="alteraDivPrincipal('cor-fundo')" id="cor-fundo"> <br><br>
+        <input type="color" oninput="alteraDivPrincipal('cor-fundo')" id="cor-fundo" value="#FFFFFF">
 
         <p>Cor da borda:</p>
-        <input type="color" onchange="alteraDivPrincipal('cor-borda')" id="cor-borda"> <br><br>
+        <input type="color" oninput="alteraDivPrincipal('cor-borda')" id="cor-borda">
 
         <p>Tamanho da fonte</p>
-        <input type="number" min="10" max="48" onchange="alteraDivPrincipal('tamanho-fonte')" id="tamanho-fonte"> <br> <br>
+        <input type="number" min="10" max="22" onchange="alteraDivPrincipal('tamanho-fonte')" id="tamanho-fonte">
 
         <p>Largura da div:</p>
-        <input type="number" min="350" max="700" onchange="alteraDivPrincipal('largura-div')" id="largura-div"> <br> <br>
+        <input type="number" min="350" max="700" onchange="alteraDivPrincipal('largura-div')" id="largura-div">
 
         <p>Altura da div:</p>
-        <input type="number" min="300" max="700" onchange="alteraDivPrincipal('altura-div')" id="altura-div"> <br> <br>
+        <input type="number" min="300" max="700" onchange="alteraDivPrincipal('altura-div')" id="altura-div">
     </form>
     
     <script src="script.js"></script>
